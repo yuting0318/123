@@ -1,0 +1,11 @@
+{
+	"compilerOptions": {
+		"allowJs": true,
+		"typeRoots": ["./types"],
+		"outDir": "./dist",
+		"paths": {
+			"$components/*": ["./views/components/*"]
+		}
+	},
+	"exclude": ["node_modules"]
+}
